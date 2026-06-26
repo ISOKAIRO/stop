@@ -1,0 +1,63 @@
+Updated todo list
+
+
+````
+
+````
+
+````
+
+````
+
+
+Read [](file:///Users/iso/Blankett%20Website%20Material.worktrees/copilot-worktree-2026-06-26T02-34-32/package.json)
+
+Ran terminal command: import json, pathlib; p=pathlib.Path('package.json'); data=json.loads(p.read_text()); print('package json parsed', data['name'], 'scripts', list(data['scripts'].keys())); print('index exists', pathlib.Path('index.html').exists(), 'style exists', pathlib.Path('style.css').exists())
+
+Ran terminal command: python3 -c "import json, pathlib; p=pathlib.Path('package.json'); data=json.loads(p.read_text()); print('package json parsed', data['name'], 'scripts', list(data['scripts'].keys())); print('index exists', pathlib.Path('index.html').exists(), 'style exists', pathlib.Path('style.css').exists())"
+
+Ran terminal command:  git status --short
+
+Ran terminal command: git status --short
+
+Ran terminal command:  pwd && ls -la
+
+Ran terminal command: pwd && ls -la
+
+Ran terminal command:  git status --short --branch
+
+Ran terminal command: git status --short --branch
+
+Ran terminal command:  git status --short --branch
+
+Ran terminal command: git status --short --branch
+
+Ran terminal command: import subprocess; p=subprocess.run(['git','status','--short','--branch'], capture_output=True, text=True); print('RC',p.returncode); print(p.stdout); print(p.stderr)
+
+Ran terminal command: python3 -c "import subprocess; p=subprocess.run(['git','status','--short','--branch'], capture_output=True, text=True); print('RC',p.returncode); print(p.stdout); print(p.stderr)"
+
+
+````
+
+````
+
+
+Read [](file:///Users/iso/Blankett%20Website%20Material.worktrees/copilot-worktree-2026-06-26T02-34-32/README.md)
+
+I set up the project foundation:
+
+- updated `package.json` with a proper project name, description, `dev` script, and `http-server` dev dependency
+- added `index.html` with a calculator UI shell
+- added `style.css` for basic site styling
+- updated `README.md` with setup instructions and Node/npm requirements
+
+I also verified the new files exist and `package.json` is valid.
+
+Note: this environment does not have Node/npm installed, so I could not run `npm install` here. Once you have Node locally, run:
+
+- `npm install`
+- `npm run dev`
+
+to start the site at `http://localhost:8000`.
+
+Made changes.
